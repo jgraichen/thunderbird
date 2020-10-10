@@ -1,0 +1,25 @@
+
+calendar-month-day-box-item {
+    padding: 0 !important;
+}
+
+calendar-month-day-box-item[invitation-status="NEEDS-ACTION"] {
+    border: 0 !important;
+}
+
+calendar-month-day-box calendar-month-day-box-item[allday="true"] .calendar-color-box {
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    box-shadow: none !important;
+}
+
+.calendar-event-box-container {
+    margin: 0 !important;;
+}
+
+.event-name-label {
+    margin: 0 !important;;
+}
+
+.calendar-color-box {
+    background-image: none !important;
+}
